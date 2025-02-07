@@ -1409,3 +1409,21 @@
 2025-02-07 01:20:07.692 | INFO     | __main__:process_message:127 - Updated author counts: {'Eve': 62, 'Alice': 56, 'Charlie': 49, 'Bob': 50}
 2025-02-07 01:20:07.726 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just saw a story! It was weird.", "author": "Bob"}
 
+2025-02-07 01:20:10.561 | INFO     | __main__:main:134 - {'message': 'I just tried a story! It was amazing.', 'author': 'Bob'}
+2025-02-07 01:20:10.749 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just tried a story! It was amazing.', 'author': 'Bob'}
+2025-02-07 01:20:10.750 | INFO     | __main__:process_message:121 - Message received from author: Bob
+2025-02-07 01:20:10.750 | INFO     | __main__:process_message:127 - Updated author counts: {'Eve': 62, 'Alice': 56, 'Charlie': 49, 'Bob': 51}
+2025-02-07 01:20:10.799 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just tried a story! It was amazing.", "author": "Bob"}
+
+2025-02-07 01:20:13.570 | INFO     | __main__:main:134 - {'message': 'I just found a movie! It was boring.', 'author': 'Charlie'}
+2025-02-07 01:20:13.829 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just found a movie! It was boring.', 'author': 'Charlie'}
+2025-02-07 01:20:13.831 | INFO     | __main__:process_message:121 - Message received from author: Charlie
+2025-02-07 01:20:13.832 | INFO     | __main__:process_message:127 - Updated author counts: {'Eve': 62, 'Alice': 56, 'Charlie': 50, 'Bob': 51}
+2025-02-07 01:20:13.914 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just found a movie! It was boring.", "author": "Charlie"}
+
+2025-02-07 01:20:16.596 | INFO     | __main__:main:134 - {'message': 'I just found an app! It was amazing.', 'author': 'Eve'}
+2025-02-07 01:20:16.947 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just found an app! It was amazing.', 'author': 'Eve'}
+2025-02-07 01:20:16.949 | INFO     | __main__:process_message:121 - Message received from author: Eve
+2025-02-07 01:20:16.953 | INFO     | __main__:process_message:127 - Updated author counts: {'Eve': 63, 'Alice': 56, 'Charlie': 50, 'Bob': 51}
+2025-02-07 01:20:17.014 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just found an app! It was amazing.", "author": "Eve"}
+
