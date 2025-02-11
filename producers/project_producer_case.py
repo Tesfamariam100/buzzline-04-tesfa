@@ -33,7 +33,13 @@ try:
     KAFKA_AVAILABLE = True
 except ImportError:
     KAFKA_AVAILABLE = False
+    
+import json
+# ... other imports
 
+from kafka import KafkaConsumer  # Import KafkaConsumer
+
+# ... rest of your consumer code
 # Import logging utility
 from utils.utils_logger import logger
 

@@ -21,6 +21,7 @@ import sys
 import time
 import pathlib  # work with file paths
 import json  # work with JSON data
+import matplotlib.pyplot as plt
 
 # Import external packages
 from dotenv import load_dotenv
@@ -61,7 +62,7 @@ def get_message_interval() -> int:
 #####################################
 # Set up Paths
 #####################################
-
+plt.title
 # The parent directory of this file is its folder.
 # Go up one more parent level to get the project root.
 PROJECT_ROOT = pathlib.Path(__file__).parent.parent

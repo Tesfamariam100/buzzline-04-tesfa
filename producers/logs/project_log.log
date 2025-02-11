@@ -1,0 +1,72 @@
+2025-02-08 01:09:06.538 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-08 01:15:01.803 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-08 01:15:01.805 | INFO     | __main__:<module>:50 - Project root: C:\DSProjects\buzzline-04-tesfa
+2025-02-08 01:15:01.806 | INFO     | __main__:<module>:54 - Data folder: C:\DSProjects\buzzline-04-tesfa\data
+2025-02-08 01:15:01.807 | INFO     | __main__:<module>:58 - Data file: C:\DSProjects\buzzline-04-tesfa\data\buzz_live.json
+2025-02-08 01:15:01.808 | INFO     | __main__:main:125 - START producer...
+2025-02-08 01:15:01.829 | INFO     | __main__:main:126 - Hit CTRL c (or CMD c) to close.
+2025-02-08 01:15:01.834 | INFO     | __main__:get_message_interval:40 - Message interval: 3 seconds
+2025-02-08 01:15:01.835 | INFO     | __main__:main:134 - {'message': 'I just loved an app! It was amazing.', 'author': 'Eve'}
+2025-02-08 01:15:04.838 | INFO     | __main__:main:134 - {'message': 'I just tried a movie! It was exciting.', 'author': 'Alice'}
+2025-02-08 01:15:07.843 | INFO     | __main__:main:134 - {'message': 'I just tried a meme! It was exciting.', 'author': 'Eve'}
+2025-02-08 01:15:10.847 | INFO     | __main__:main:134 - {'message': 'I just found an app! It was boring.', 'author': 'Bob'}
+2025-02-08 01:15:13.851 | INFO     | __main__:main:134 - {'message': 'I just tried a story! It was funny.', 'author': 'Eve'}
+2025-02-08 01:15:16.856 | INFO     | __main__:main:134 - {'message': 'I just saw a movie! It was weird.', 'author': 'Bob'}
+2025-02-08 01:15:19.868 | INFO     | __main__:main:134 - {'message': 'I just tried a movie! It was funny.', 'author': 'Alice'}
+2025-02-08 01:15:22.885 | INFO     | __main__:main:134 - {'message': 'I just loved a movie! It was weird.', 'author': 'Charlie'}
+2025-02-08 01:15:25.888 | INFO     | __main__:main:134 - {'message': 'I just tried a meme! It was amazing.', 'author': 'Charlie'}
+2025-02-08 01:15:28.891 | INFO     | __main__:main:134 - {'message': 'I just saw a meme! It was boring.', 'author': 'Alice'}
+2025-02-08 01:15:31.894 | INFO     | __main__:main:134 - {'message': 'I just shared a movie! It was weird.', 'author': 'Eve'}
+2025-02-08 01:15:34.899 | INFO     | __main__:main:134 - {'message': 'I just saw an app! It was weird.', 'author': 'Bob'}
+2025-02-08 01:15:37.902 | INFO     | __main__:main:134 - {'message': 'I just tried a trick! It was boring.', 'author': 'Eve'}
+2025-02-08 01:15:40.906 | INFO     | __main__:main:134 - {'message': 'I just loved a movie! It was weird.', 'author': 'Charlie'}
+2025-02-08 01:15:43.909 | INFO     | __main__:main:134 - {'message': 'I just shared a trick! It was boring.', 'author': 'Eve'}
+2025-02-08 01:15:46.912 | INFO     | __main__:main:134 - {'message': 'I just tried a story! It was weird.', 'author': 'Bob'}
+2025-02-08 01:15:49.917 | INFO     | __main__:main:134 - {'message': 'I just saw a trick! It was boring.', 'author': 'Bob'}
+2025-02-08 01:15:52.921 | INFO     | __main__:main:134 - {'message': 'I just shared a trick! It was boring.', 'author': 'Alice'}
+2025-02-08 01:15:55.923 | INFO     | __main__:main:134 - {'message': 'I just shared a trick! It was amazing.', 'author': 'Charlie'}
+2025-02-08 01:15:58.927 | INFO     | __main__:main:134 - {'message': 'I just tried an app! It was boring.', 'author': 'Alice'}
+2025-02-08 01:16:01.930 | INFO     | __main__:main:134 - {'message': 'I just saw a story! It was exciting.', 'author': 'Alice'}
+2025-02-08 01:16:04.934 | INFO     | __main__:main:134 - {'message': 'I just loved a movie! It was funny.', 'author': 'Charlie'}
+2025-02-08 01:16:07.938 | INFO     | __main__:main:134 - {'message': 'I just tried an app! It was weird.', 'author': 'Alice'}
+2025-02-08 01:16:10.943 | INFO     | __main__:main:134 - {'message': 'I just saw a story! It was funny.', 'author': 'Alice'}
+2025-02-08 01:16:13.947 | INFO     | __main__:main:134 - {'message': 'I just tried a trick! It was funny.', 'author': 'Alice'}
+2025-02-08 01:16:16.952 | INFO     | __main__:main:134 - {'message': 'I just tried an app! It was boring.', 'author': 'Bob'}
+2025-02-08 01:16:19.958 | INFO     | __main__:main:134 - {'message': 'I just found a story! It was boring.', 'author': 'Alice'}
+2025-02-08 01:16:22.964 | INFO     | __main__:main:134 - {'message': 'I just found a movie! It was boring.', 'author': 'Eve'}
+2025-02-08 01:16:25.966 | INFO     | __main__:main:134 - {'message': 'I just saw an app! It was boring.', 'author': 'Alice'}
+2025-02-08 01:16:28.970 | INFO     | __main__:main:134 - {'message': 'I just found a story! It was weird.', 'author': 'Eve'}
+2025-02-08 01:16:31.974 | INFO     | __main__:main:134 - {'message': 'I just shared a story! It was boring.', 'author': 'Eve'}
+2025-02-08 01:16:34.979 | INFO     | __main__:main:134 - {'message': 'I just loved an app! It was funny.', 'author': 'Alice'}
+2025-02-08 01:16:37.983 | INFO     | __main__:main:134 - {'message': 'I just loved a trick! It was weird.', 'author': 'Charlie'}
+2025-02-08 01:16:40.992 | INFO     | __main__:main:134 - {'message': 'I just loved a movie! It was amazing.', 'author': 'Eve'}
+2025-02-08 01:16:43.995 | INFO     | __main__:main:134 - {'message': 'I just loved a meme! It was exciting.', 'author': 'Bob'}
+2025-02-08 01:16:47.000 | INFO     | __main__:main:134 - {'message': 'I just tried a trick! It was weird.', 'author': 'Eve'}
+2025-02-08 01:16:50.005 | INFO     | __main__:main:134 - {'message': 'I just loved an app! It was amazing.', 'author': 'Eve'}
+2025-02-08 01:16:53.009 | INFO     | __main__:main:134 - {'message': 'I just shared a meme! It was boring.', 'author': 'Charlie'}
+2025-02-08 01:16:56.013 | INFO     | __main__:main:134 - {'message': 'I just found a movie! It was exciting.', 'author': 'Charlie'}
+2025-02-08 01:16:59.018 | INFO     | __main__:main:134 - {'message': 'I just loved an app! It was weird.', 'author': 'Charlie'}
+2025-02-08 01:17:02.022 | INFO     | __main__:main:134 - {'message': 'I just shared a trick! It was amazing.', 'author': 'Eve'}
+2025-02-08 01:17:05.025 | INFO     | __main__:main:134 - {'message': 'I just tried a movie! It was weird.', 'author': 'Bob'}
+2025-02-08 01:17:08.027 | INFO     | __main__:main:134 - {'message': 'I just found a trick! It was weird.', 'author': 'Eve'}
+2025-02-08 01:17:11.031 | INFO     | __main__:main:134 - {'message': 'I just shared an app! It was weird.', 'author': 'Bob'}
+2025-02-08 01:17:14.035 | INFO     | __main__:main:134 - {'message': 'I just shared a trick! It was funny.', 'author': 'Charlie'}
+2025-02-08 01:17:17.039 | INFO     | __main__:main:134 - {'message': 'I just shared a meme! It was amazing.', 'author': 'Alice'}
+2025-02-08 01:17:20.041 | INFO     | __main__:main:134 - {'message': 'I just found a story! It was amazing.', 'author': 'Charlie'}
+2025-02-08 01:17:23.043 | INFO     | __main__:main:134 - {'message': 'I just saw an app! It was exciting.', 'author': 'Charlie'}
+2025-02-08 01:17:26.046 | INFO     | __main__:main:134 - {'message': 'I just tried a trick! It was amazing.', 'author': 'Bob'}
+2025-02-08 01:17:29.048 | INFO     | __main__:main:134 - {'message': 'I just found a story! It was boring.', 'author': 'Alice'}
+2025-02-08 01:17:32.053 | INFO     | __main__:main:134 - {'message': 'I just tried a movie! It was amazing.', 'author': 'Charlie'}
+2025-02-08 01:17:34.531 | WARNING  | __main__:main:139 - Producer interrupted by user.
+2025-02-08 01:17:34.532 | INFO     | __main__:main:143 - Producer shutting down.
+2025-02-08 01:27:23.223 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-08 01:29:24.401 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-08 01:29:24.406 | INFO     | __main__:<module>:69 - Project root: C:\DSProjects\buzzline-04-tesfa
+2025-02-08 01:29:24.406 | INFO     | __main__:<module>:73 - Data folder: C:\DSProjects\buzzline-04-tesfa\data
+2025-02-08 01:29:24.407 | INFO     | __main__:<module>:77 - Data file: C:\DSProjects\buzzline-04-tesfa\data\buzz.json
+2025-02-08 01:29:24.408 | INFO     | __main__:main:137 - START producer.
+2025-02-08 01:29:24.408 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-02-08 01:29:24.431 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-02-08 01:29:24.432 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-08 01:29:26.562 | ERROR    | utils.utils_producer:check_kafka_service_is_ready:102 - Error checking Kafka: NoBrokersAvailable
+2025-02-08 01:29:26.563 | ERROR    | utils.utils_producer:verify_services:121 - Kafka broker is not ready. Please check your Kafka setup. Exiting...

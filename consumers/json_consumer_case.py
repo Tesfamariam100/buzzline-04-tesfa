@@ -35,6 +35,8 @@ import matplotlib.pyplot as plt
 from utils.utils_consumer import create_kafka_consumer
 from utils.utils_logger import logger
 
+from kafka import KafkaConsumer  # Import KafkaConsumer
+
 #####################################
 # Load Environment Variables
 #####################################
