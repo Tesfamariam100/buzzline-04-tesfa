@@ -15,6 +15,12 @@ Example Kafka message format:
 # Import packages from Python Standard Library
 import os
 import json  # handle JSON parsing
+import sys
+
+# Add the project root directory to Python's search path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from utils.utils_consumer import create_kafka_consumer  
+
 
 # Use a deque ("deck") - a double-ended queue data structure
 # A deque is a good way to monitor a certain number of "most recent" messages

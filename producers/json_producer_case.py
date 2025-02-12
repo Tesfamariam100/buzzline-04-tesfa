@@ -18,6 +18,10 @@ Example serialized to Kafka message
 # Import packages from Python Standard Library
 import os
 import sys
+# Add the project root directory to Python path
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(project_root)
+
 import time
 import pathlib  # work with file paths
 import json  # work with JSON data
