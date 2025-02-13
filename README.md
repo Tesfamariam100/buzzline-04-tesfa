@@ -1,59 +1,35 @@
-# buzzline-04-case
-
-We can analyze and visualize different types of streaming data as the information arrives.
-
-The producers don't change from buzzline-03-case - they write the same information to a Kafka topic, except the csv producer for the smart smoker has been modified to not run continuously. It will stop after reading all the rows in the CSV file. 
-The consumers have been enhanced to add visualization. 
-
-This project uses matplotlib and its animation capabilities for visualization. 
-
-It generates three applications:
-
-1. A basic producer and consumer that exchange information via a dynamically updated file. 
-2. A JSON producer and consumer that exchange information via a Kafka topic. 
-3. A CSV producer and consumer that exchange information via a different Kafka topic. 
-
-All three applications produce live charts to illustrate the data. 
+# buzzline-04-tesfa
+case
+This project demonstrates analyzing and visualizing streaming data using matplotlib's animation capabilities.  It includes examples of file-based and Kafka-based streaming applications.
 
 ## Task 1. Use Tools from Module 1 and 2
 
-Before starting, ensure you have completed the setup tasks in <https://github.com/denisecase/buzzline-01-case> and <https://github.com/denisecase/buzzline-02-case> first. 
-Python 3.11 is required. 
+Before starting, ensure you have completed the setup tasks in [buzzline-01-tesfa](https://github.com/Tesfamariam100/buzzline-01-tesfa) and [buzzline-02-tesfa](https://github.com/Tesfamariam100/buzzline-02-tesfa) first. Python 3.11 is required.
 
 ## Task 2. Copy This Example Project and Rename
 
-Once the tools are installed, copy/fork this project into your GitHub account
-and create your own version of this project to run and experiment with. 
-Follow the instructions in [FORK-THIS-REPO.md](https://github.com/denisecase/buzzline-01-case/docs/FORK-THIS-REPO.md).
-
-OR: For more practice, add these example scripts or features to your earlier project. 
-You'll want to check requirements.txt, .env, and the consumers, producers, and util folders. 
-Use your README.md to record your workflow and commands. 
-    
+Follow the instructions in [FORK-THIS-REPO.md](https://github.com/denisecase/buzzline-01-case/docs/FORK-THIS-REPO.md) to copy/fork this project into your GitHub account.
 
 ## Task 3. Manage Local Project Virtual Environment
 
-Follow the instructions in [MANAGE-VENV.md](https://github.com/denisecase/buzzline-01-case/docs/MANAGE-VENV.md) to:
-1. Create your .venv
-2. Activate .venv
-3. Install the required dependencies using requirements.txt.
+Follow the instructions in [MANAGE-VENV.md](https://github.com/denisecase/buzzline-01-case/docs/MANAGE-VENV.md) to create, activate, and install dependencies.
 
 ## Task 4. Start Zookeeper and Kafka (2 Terminals)
 
-If Zookeeper and Kafka are not already running, you'll need to restart them.
-See instructions at [SETUP-KAFKA.md] to:
-
-1. Start Zookeeper Service ([link](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md#step-7-start-zookeeper-service-terminal-1))
-2. Start Kafka ([link](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md#step-8-start-kafka-terminal-2))
-
+If Zookeeper and Kafka are not already running, restart them as described in [SETUP-KAFKA.md](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md).
 ---
 
-## Task 5. Start a Basic (File-based, not Kafka) Streaming Application
+## Task 5. Start a Basic (File-based) Streaming Application
 
-This will take two terminals:
+This requires two terminals: one for the producer and one for the consumer.
 
-1. One to run the producer which writes to a file in the data folder. 
-2. Another to run the consumer which reads from the dynamically updated file. 
+### Producer Terminal
+
+```
+.venv\Scripts\activate  # Windows
+source .venv/bin/activate # Mac/Linux
+py -m producers.basic_json_producer_tesfa # Windows
+python3 -m producers.basic_json_producer_tesfa # Mac/Linux 
 
 ### Producer Terminal
 
@@ -64,15 +40,15 @@ Use the commands below to activate .venv, and start the producer.
 
 Windows:
 
-```shell
+```
 .venv\Scripts\activate
-py -m producers.basic_json_producer_case
+py -m producers.basic_json_producer_tesfa
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.basic_json_producer_case
+python3 -m producers.basic_json_producer_tesfa
 ```
 
 ### Consumer Terminal
@@ -85,13 +61,13 @@ Use the commands below to activate .venv, and start the consumer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m consumers.basic_json_consumer_case
+py -m consumers.basic_json_consumer_tesfa
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.basic_json_consumer_case
+python3 -m consumers.basic_json_consumer_tesfa
 ```
 
 ### Review the Application Code
@@ -117,8 +93,8 @@ For each one, you will need to:
 3. Know the command that works on your machine to execute python (e.g. py or python3).
 4. Know how to use the -m (module flag to run your file as a module).
 5. Know the full name of the module you want to run. 
-   - Look in the producers folder for json_producer_case.
-   - Look in the consumers folder for json_consumer_case.
+   - Look in the producers folder for json_producer_tesfa.
+   - Look in the consumers folder for json_consumer_tesfa.
 
 
 ### Review the Application Code
@@ -149,8 +125,8 @@ For each one, you will need to:
 3. Know the command that works on your machine to execute python (e.g. py or python3).
 4. Know how to use the -m (module flag to run your file as a module).
 5. Know the full name of the module you want to run. 
-   - Look in the producers folder for csv_producer_case.
-   - Look in the consumers folder for csv_consumer_case.
+   - Look in the producers folder for csv_producer_tesfa.
+   - Look in the consumers folder for csv_consumer_tesfa.
 
 ### Review the Application Code
 
@@ -210,3 +186,7 @@ Live Line Chart with Alert (Kafka CSV streaming)
 
 ![CSV (Kafka)](images/live_line_chart_example.jpg)
 
+.venv\Scripts\activate  # Windows
+source .venv/bin/activate # Mac/Linux
+py -m consumers.basic_json_consumer_case # Windows
+python3 -m consumers.basic_json_consumer_case # Mac/Linux
